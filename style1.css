@@ -1,0 +1,91 @@
+.weather_forecast {
+  background-image: linear-gradient(-60deg, #ff9768, #9156e1 100%);
+}
+.map {
+  font-family:Open Sans;
+  font-size:24px;
+  padding:20 20 20 20px;
+  height: auto;
+  width:80%;
+  margin-left:10%;
+  margin-right:10%;
+  margin-bottom: 20px;
+  text-align:center;
+  background-image: linear-gradient(45deg, rgba(103, 0, 31, .8), rgba(34, 101, 163, .5));
+}
+.provaider {
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  text-shadow: 1px 1px 2px black, 0 0 1em #ffffff;
+  color: #d98192;
+  font-size: 30px;
+  font-weight: 400;
+}
+.provaider::placeholder {
+  color: #d98192;
+}
+.tmp_1 {
+  text-shadow: 0 0 10px rgba(255,255,255,0.9);
+  font-size:1.9em;
+}
+.day, #demo {
+ border-radius:4px;
+ box-shadow: 0 0 10px rgba(0,0,0,0.5);
+ text-align:center;
+ padding:20px;
+ margin-bottom: 20px;
+}
+#tablo {
+display: flex;
+flex-flow: row wrap;
+align-items: stretch;
+justify-content: space-around;
+}
+
+#tmp:first-letter {
+text-transform:capitalize;
+}
+#day1, #day2, #day3, #day4 {
+font-size:1.8em;
+color:#e8ffe8;
+text-shadow: 0 0 5px #070707;
+} 
+#demo7, #demo6, #demo10, #demo8, #demo14, #demo12, #demo18, #demo16 {
+font-size:.8em;
+}
+#demo5, #demo11, #demo15, #demo19 {
+font-size:1.3em;
+color:#0768f0;
+}
+#demo4, #demo9, #demo13, #demo17 {
+font-size:1.3em;
+color:#ff00bb;
+}
+.city-text, .city-text2, .city-text4 {
+font-size: 0.8em;
+color: white;
+text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px #2cb5e8 ;
+}
+.weth, .times {
+border-top:1px solid white;
+width:80%;
+margin-left:10%;
+margin-right:10%;
+}
+.weth {
+padding-bottom:20px;
+}
+.provaider {
+padding:20px 0px 20px 0px;
+}
+.date {
+font-family:Open Sans;
+font-size:22px !important;
+}
+.time {
+color:#ffffff;
+text-shadow: 0 0 5px #070707;
+font-family:Open Sans;font-size:22px !important;
+}

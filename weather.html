@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <title>PWA weather</title>
+  <meta name="description" content="PWA">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#2196f3">
+  <link rel="icon" type="image/png" href="./images/icons/icon-128x128.png" />
+  <link rel="apple-touch-icon" href="./images/icons/icon-192x192.png">
+  <meta name="apple-mobile-web-app-status-bar" content="#2196f3">
+  <link rel="stylesheet" href="style1.css" />
+  <link rel="stylesheet" href="style2.css" />
+  <link rel="manifest" href="./manifest.json">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  
+</head>
+
+<body>
+
+<div class="weather_forecast">
+
+	<div class="map" >
+    
+    <div class="provaider">
+      <div id="city-text"></div>
+		  <div id="city-text2"></div>
+		  <div id="city-text4"></div>
+    </div>
+        
+		<div id="times">
+			<p>Сегодня: <strong><span id="date"></span></strong></p>
+			<strong><span id="time"></span></strong>
+        </div>
+        
+		<div id="weth">
+            <p>
+                Cейчас:<span id="tmp" class="tmp_1">
+                </span><img id="tmp3"></img>
+                <br>
+                Температура:<span id="tmp1" class="tmp_1"></span><span id="tempMode" class="tmp_1">°C</span>
+                <br>
+                Ветер:      <span id="tmp2"></span>
+                <br>
+                Влажность:  <span id="tmp20"></span>
+                <br>
+                Давление:   <span id="tmp21"></span>
+            </p>
+        </div>
+        
+	</div>
+	 
+	<div id="tablo"> 
+		<div class="day">
+			<img id="tmp4"></img><br>
+			<p id="day1"></p>
+			<div id="demo7"></div>
+			<div id="demo5" ></div>
+			<div id="demo6"></div>
+			<div id="demo4"></div>
+		</div>
+
+		<div class="day">
+			<img id="tmp5"></img><br>
+			<p id="day2"></p>
+			<div id="demo10"></div>
+			<div id="demo11"></div>
+			<div id="demo8"></div>
+			<div id="demo9"></div>
+		</div> 
+
+		<div class="day">
+			<img id="tmp6"></img><br>
+			<p id="day3"></p>
+			<div id="demo14"></div>
+			<div id="demo15"></div>
+			<div id="demo12"></div>
+			<div id="demo13"></div>
+		</div> 
+
+		<div class="day">
+            <img id="tmp7"></img><br>
+			<p id="day4"></p>
+			<div id="demo18"></div>
+			<div id="demo19"></div>
+			<div id="demo16"></div>
+			<div id="demo17"></div>
+        </div>
+    </div>
+
+    <div class="app-wrap">
+        <header>
+          <input type="text" autocomplete="off" class="search-box" placeholder="Search for a city..." />
+        </header>
+        <main>
+          <section class="location">
+            <div class="city">Mar"ina Horka, BY</div>
+            <div class="date">Thursday 12 May 2020</div>
+          </section>
+          <div class="current">
+            <div class="temp">3<span>°C</span></div>
+            <div class="weather">Clear</div>
+            <div class="hi-low">3°c / 3°c</div>
+          </div>
+        </main>
+      </div>
+</div>
+
+<script src="./js/app.js"></script>
+<script src="script1.js"></script>
+<script src="script2.js"></script>
+
+</body>
+
+</html>
